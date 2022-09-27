@@ -1,1 +1,0 @@
-# FED_2_IkubAcademy
