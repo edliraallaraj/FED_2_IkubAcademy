@@ -1,0 +1,150 @@
+*{
+background-color:burlywood ;
+font-family: 'Times New Roman', Times, serif;
+}
+ul {
+list-style-type:none;
+}
+    
+li a{
+text-decoration: none;
+color: white;
+text-align: center;
+font-size: 12px;
+font-family:'Times New Roman', Times, serif;
+}
+        
+li{
+float: left;
+padding: 8px;
+}
+        
+li a:hover{
+background-color:brown;
+color:black;
+}
+h1{
+background-color: burlywood;
+color:brown;
+text-align: center;
+border: 3px solid rgb(246, 246, 247);
+margin-left: 10px ;
+margin-right: 15px;
+}
+h2{
+background-color: burlywood;
+color: brown;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+}
+.parStyle{
+    border: 1px solid brown;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right:15px ;
+    color: brown;
+    text-align: center;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}   
+.headStyle{
+color:brown;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+}
+.lineStyle{
+color:red;
+text-align: left;
+}   
+.line2Style{
+color:orangered;
+text-align: left;
+} 
+.line3Style{
+color:orange;
+text-align: left;
+} 
+.line4Style{
+color:yellow;
+text-align: left;
+} 
+.line5Style{
+color: rgb(120, 205, 50);
+text-align: left;
+} 
+.line6Style{
+color: rgb(27, 153, 2);
+text-align: left;
+} 
+.line7Style{
+color: aquamarine;
+text-align: left;
+} 
+.line8Style{
+color:aqua;
+text-align: left;
+} 
+.line9Style{
+color: blue;
+text-align: left;
+} 
+.line10Style{
+color: blueviolet;
+text-align: left;
+} 
+.line11Style{
+color:rgb(234, 0, 255);
+text-align: left;
+} 
+.line12Style{
+color: rgb(255, 0, 149);
+text-align: left;
+} 
+.line13Style{
+color: rgb(255, 0, 76);
+text-align: left;
+} 
+.line14Style{
+color: rgb(255, 0, 0) ;
+text-align: left;
+} 
+.line15Style{
+color: rgb(226, 70, 43);
+text-align: left;
+} 
+.line16Style{
+color: rgb(226, 141, 43);
+text-align: left;
+} 
+.line17Style{
+color: rgb(223, 219, 10);
+text-align: left;
+}                                                           
+.head2Style{
+color:brown;
+text-align: left;
+font-family: 'Times New Roman', Times, serif;
+}
+.head3Style{
+color: white;
+text-align: left;
+font-family: 'Times New Roman', Times, serif;
+}
+.olistStyle{
+color:brown;
+list-style-position: left;
+text-align: left;
+
+}
+.head4Style{
+color:brown;
+text-align: left;
+font-family: 'Times New Roman', Times, serif;
+}
+.tableStyle{
+background-color: brown;
+border: 3px  solid;
+text-align: center;
+color: black;
+}
