@@ -1,0 +1,30 @@
+*{
+background-color: rgb(224, 221, 221);
+}
+ul {
+list-style-type:none;
+}
+            
+li a{
+text-decoration: none;
+color: black;
+text-align: center;
+font-size: 12px;
+font-family:'Times New Roman', Times, serif;
+}
+                
+li{
+float: left;
+padding: 8px;
+}
+                
+li a:hover{
+background-color:green;
+color:white;
+}
+
+h1{
+color: rgb(5, 105, 5);
+text-align: center;
+background-color: white;
+}
