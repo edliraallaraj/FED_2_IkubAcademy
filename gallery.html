@@ -8,22 +8,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-<script src = "/scripts/jquery.min.js"></script>
-<script src = "/bootstrap/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="contact.css" />
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="~/lib/Font-Awesome/css/all.min.css">
+<script src ="/scripts/jquery.min.js"></script>
+<script src ="/bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="gallery.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Laila">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fraunces">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans:400,700">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="~/lib/Font-Awesome/css/all.min.css">
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  
 <!-- Navbar -->
 <div class="container" id="navbar">
 <div  class="logo-holder logo-6 mt-2"> 
@@ -31,7 +31,7 @@
 <h3>Klinika e Fizioterapisë <span>"Arsena"</span></h3> 
 </a>
 <div class="dropdown">
-    
+        
 <nav class="navbar navbar-expand-lg">
 <ul class="list-unstyled">
 <li><a class="nav-link ms-3" href="contact.html" id="navbarLightDropdownMenuLink" role="button"  aria-expanded="false">Kontakt</a>
@@ -41,19 +41,20 @@
 <li><a class="dropdown-item text-dark" href="gallery.html">Para dhe pas trajtimit</a></li>
 </ul>
 </li>
-        
+            
 <li><a class="nav-link click-scroll dropdown-toggle ms-3" href="ourServices.html" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shërbimet</a>
 <ul class="dropdown-menu dropdown-menu list-unstyled" aria-labelledby="navbarLightDropdownMenuLink">
 <li><a class="dropdown-item text-dark"  href="ourServices.html">Sëmundjet që trajtohen</a></li>
 <li><a class="dropdown-item text-dark"  href="ourServices.html">Terapitë që përdoren</a></li>
 </ul>
 </li>
-        
+            
 <li><a class="nav-link  ms-3" href="about.html" id="navbarLightDropdownMenuLink" role="button"  aria-expanded="false">Rreth nesh</a>
 </ul>  
 <div class="search">
 <form class="example" action="faq.html" style="margin:auto; max-width:300px">
 <input type="text" class="form-control text-center" placeholder="Kërko " name="search">
+<a href="contact.html" class="btn btn-sm btn-outline-secondary">Hyr</a>
 <button class="btn btn-outline btn-sm"><i class="fa fa-search"></i></button>
 </form>
 </div>
@@ -61,146 +62,69 @@
 </nav> 
 </div>
 </div>
-</br></br>
+</br></br>   
+</br></br>   
 
-<!-- Log in form , Registration form -->
-<section class="forms-section" style="background-color: #3b4465 ;">
+<h2 class="text-center text-dark" style="text-shadow:1px 1px 1px rgb(254, 253, 255); font-family: 'Laila';">Galeria</h2>
+</br></br>   
+<!-- Carousel Slide -->
 <div class="container">
 <div class="row">
 <div class="col-sm-6">
-<div class="forms">
-<div class="form-wrapper is-active">
-<button type="button" class="switcher switcher-login">Hyr
-<span class="underline"></span>
-</button>
-<form class="form form-login was-validated">
-<fieldset>
-<legend>Ju lutemi, vendosni emailin dhe paswordin tuaj për të hyrë</legend>
-<div class="input-block">
-<label for="login-email" class="form-label" placeholder="Vendosni emailin tuaj">E-mail</label>
-<input id="login-email" type="email" required>
-<div class="valid-feedback">Valid</div>
-<div class="invalid-feedback">Ju lutemi, plotësoni emailin tuaj</div>
-</div>
-<div class="input-block">
-<label for="login-password" class="form-label" placeholder="Vendosni paswordin tuaj">Paswordi</label>
-<input id="login-password" type="password" required>
-<div class="valid-feedback">Valid</div>
-<div class="invalid-feedback">Ju lutemi, plotësoni paswordin tuaj</div>
-</div>
-</fieldset>
-<button type="submit" class="btn btn-login">Hyr</button>
-</form>
-</div>
-<div class="form-wrapper">
-<button type="button" class="switcher switcher-signup">Regjistrohu
-<span class="underline"></span>
-</button>
-<form class="form form-signup was-validated">
-<fieldset>
-<legend>Ju lutemi, vendosni emailin tuaj, paswordin dhe konfirmimin e paswordit për t'u regjistruar</legend>
-<div class="input-block">
-<label for="signup-email" class="form-label" placeholder="Vendosni emailin tuaj">E-mail</label>
-<input id="signup-email" type="email" required>
-<div class="valid-feedback">Valid</div>
-<div class="invalid-feedback">Ju lutemi, plotësoni emailin tuaj</div>
-</div>
-<div class="input-block">
-<label for="signup-password" class="form-label" placeholder="Vendosni paswordin tuaj">Paswordi</label>
-<input id="signup-password" type="password" required>
-<div class="valid-feedback">Valid</div>
-<div class="invalid-feedback">Ju lutemi, plotësoni paswordin tuaj</div>
-</div>
-<div class="input-block">
-<label for="signup-password-confirm" class="form-label" placeholder="Konfirmoni paswordin tuaj">Konfirmo paswordin</label>
-<input id="signup-password-confirm" type="password" required>
-<div class="valid-feedback">Valid</div>
-<div class="invalid-feedback">Ju lutemi, konfirmoni paswordin</div>
-</div>
-</fieldset>
-<button type="submit" class="btn btn-signup">Regjistrohu</button>
-</form>
+<div class="text">
+<h4 style="color:rgb(21, 21, 126); margin-top: 280px; font-size: 38px;">Rezultatet që duam</h4>
+<p class="text-dark" style=" font-size:16px; font-weight:bold; font-size: 38px;">Para-Pas Klinika Arsena</p>
 </div>
 </div>
-</div>
-</div>
-</div>
-</section>
-</br></br>
-</br></br>
-
-
-<div class="row">
 <div class="col-sm-6">
-<h2 class="headerText text-light text-center">Kontakt</h2>
-<p class="parStyle text-light">Mbani mend, ne jemi këtu për të ndihmuar. Mos ngurroni të na kontaktoni për çdo lloj pyetjeje që lidhet me atë që bëjmë. Ju kontaktojmë brenda një dite!</p>
+<div id="demo" class="carousel slide" data-bs-ride="carousel" style="display:block" width="60" height="60">
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
 </div>
+<div class="carousel-inner">
+<div class="carousel-item active" data-interval="1200">
+<img src="b-aSlide3.jpg"  alt="b-aSlide3"  class="d-block w-100">
+<b><h3 class=" headStyle text-dark">Kontrakturë të tendineve</b></h3>
+<p class="parStyle text-dark">Ky është një rast jo i zakonshëm.  Kemi të bëjmë me kotrakturë të tendinit" Flexoria Pollicis Brevis Billateral".Në këtë rast pacienti nuk mund të drejtojë gishtin e madh të dorës normalisht dhe ka dhimbje kur e bën me ndihmë këtë veprim. Me bërjen e ushtrimeve dhe elektroterapisë ne mundëm të zgjidhim këtë problem për të cilin pacienti ka vite që vuan.</p>
 </div>
+<div class="carousel-item" data-interval="1000">
+<img src="b-aSlide5.jpg" alt="b-aSlide3"  class="d-block w-100">
+<b><h3 class=" headStyle text-dark">Shkurtim i muskujve </b></h3>
+<p class="parStyle text-dark">I riu në foto ankohej nga dhimbja e mesit dhe kur rrinte ulur për pak kohë. Pas ekzaminimeve të bëra konstatuam  një "shkurtesë të theksuar të muskujve të pasëm të kofshëve", i cili shkaktonte këto dhimbje që shpesh ngatërrohet me dhimbjet e nervit shiatik. Kjo patologji trajtohet më së miri me fizioterapi dhe dhimbjet nuk janë më të pranishme.</p>
 </div>
-</section>
-</br></br>
-<section>
-<div class="row">
-<div class="column1 col-4"> 
-<div class="card rounded example"> 
-<h5 class="text-dark text-center">Informohu</h5>
-<div>
-<label for="name" class="form-label"></label>
-<input type="text" class="form-control" id="name" placeholder="Emri" name="name"/>
+                
+<div class="carousel-item"  data-interval="800">
+<img src="b-aSlide6.jpg" alt="b-aSlide3"  class="d-block w-100">
+<B><h2 class="headStyle text-dark">Spondilit Ankilozant</B></h2>
+<p class=" parStyle text-dark">Spondiliti Ankilozant është një sëmundje inflamatore, e cila prek kolonën vertebrale duke shkaktuar bashkimin (fuzionin) e disa prej vertebrave ose kyçeve duke çuar në dëmtimin e tyre deri në shkatërrim të plotë. Këto dëmtime në shtyllën kurrizore dhe në kyçe, çojnë në deformime të shprehura dhe invalidizuese. Pas 6 dit terapie në klinikën tonë kemi rezultate të kënaqshme lidhur me lëvizshmërinë në te gjithë pjesët e prekura deri më tani.</p>
 </div>
-<div>
-<label for="email" class="form-label"></label>
-<input type="text" class="form-control" id="email" placeholder="Email" name="email"/>
-</div>
-<div>
-<label for="phone" class="form-label"></label>
-<input type="text" class="form-control" id="phone" placeholder="Tel" name="email"/>
-</div>
-<div>
-<label for="message" class="form-label"></label>
-<input type="text" class="form-control" id="message" placeholder="Mesazhi" name="email"/>
-</div>
-</br>
-<button type="button" class="btn btn-primary" style="margin-left: -18px;">Dërgoni</button>   
-</div>
-</div>
-</div>
-          
-<div class="row">
-<div class="column2 col-4"> 
-<div class="card rounded example2">
-<h5 class="text-dark text-center">Na kontaktoni</h5>
-<div>
-<i class="fa fa-phone text-center"></i>
-<h5 class="text-primary" style="margin-top: -25px;margin-left: 100px;">+355695577238<h5> 
-<p class= "text-center" style="font-size:14px; font-family: Arial, Helvetica, sans-serif;">Na kontaktoni në çdo kohë</br> në numrin tonë të telefonit.</p>
 </div> 
-<div>
-<i class="fa fa-envelope"></i>
-<h5 style="margin-top: -25px;margin-left: 80px;"><a href="mailto:arsenalleshi@yahoo.com">arsenalleshi@yahoo.com</a></h5>
-<p class= "text-center" style="font-size:14px; font-family: Arial, Helvetica, sans-serif;">Dërgoni një email </br>dhe merrni një përgjigje profesionale në inbox.</p>
+<button data-bs-target="#demo" class="carousel-control-prev" type="button" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" style="margin-top:650px;"></span>
+</button>
+<button data-bs-target="#demo" class="carousel-control-next" type="button" data-bs-slide="next">
+<span class="carousel-control-next-icon" style="margin-top: 650px"></span>
+</button>
 </div>
 </div>
 </div>
 </div>
-
-        
-<div class="row">
-<div class="column2 col-4"> 
-<div class="card rounded example3">
-    
-<h5 class="text-dark text-center">Lokacioni jonë </h5> 
-<div>
-<i class="fa fa-map-marker"></i>
-<p class="text-primary" style="font-size:17px; font-family: Arial, Helvetica, sans-serif; margin-top: -24px; margin-left: 60px;font-weight: bold;"><span>Librazhd,</span>rruga e Spitalit</p>
-</br>
-<p class="text-primary" style="font-size:17px; font-family: Arial, Helvetica, sans-serif; margin-top: -24px; margin-left: 60px;font-weight: bold;"><span>Prrenjas,</span>rruga Muhamed Kadia</p>
-</div>
-</div>
-</div>
-</div>
-</section>
 </br></br>
+</br></br>
+</br></br>
+
+<!-- Call us -->
+<h2 class="text-center" style="background-color: rgb(247, 247, 247); color:black;font-size:37px;font-family:'Fraunces';">Na kontaktoni tani!</h2>
+<a href="contact.html" class=" fa fa-phone btn btn-sm btn-outline-primary rounded" style="font-size:22px; margin-left: 860px;margin-top:-87px;">0695577238</a>
+</br></br>
+</br></br>
+<h2 class="text-center" style="color:black;font-size:37px;font-family:'Fraunces'; text-decoration: underline;">Histori suksesi</h2>
+<div class="container-fluid">
+<p class="text-dark text-center" style="font-family:'Laila' ;">Pacientët tanë janë motivimi ynë. Me kalimin e viteve ne kemi ndryshuar shumë jetë </br>dhe jemi të lumtur ta ndajmë me ju suksesin tonë!</p>
+</div>
 </br></br>
 </br></br>
 
@@ -219,7 +143,7 @@
 </p>
 <p class="footer-company-name">Klinika e Fizioterapisë "Arsena" © 2013</p>
 </div>
-      
+
 <div class="footer-center">
 <div>
 <i class="fa fa-map-marker"></i>
@@ -235,8 +159,8 @@
 <p><a href="mailto:arsenalleshi@yahoo.com">arsenalleshi@yahoo.com</a></p>
 </div>
 </div>
-      
-      
+            
+            
 <div class="footer-right">
 <p class="footer-company-about">
 <h3>Oraret e punës</h3>
@@ -248,20 +172,21 @@
 <div class="footer-icons">
 <a href="https://m.facebook.com/KlinikaArsena/"><i class="fa fa-facebook"></i></a>
 <a href="https://instagram.com/klinike_fizioterapie_arsena?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
-      
+            
 </div>
 </div>
 </footer>
-
+            
 <!-- Javascript function -->
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <div style="background-color:rgb(255, 255, 255);padding:0px"></div>
-
-<script src="contact.js"></script>  
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+          
+    
+<script src="ourServices.js"></script>  
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
